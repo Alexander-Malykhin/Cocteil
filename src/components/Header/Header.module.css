@@ -1,0 +1,11 @@
+.header {
+  margin-top: 50px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

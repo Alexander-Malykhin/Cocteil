@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+
+  &__image {
+    width: 20px;
+    height: auto;
+  }
+
+  &__input {
+    width: 100%;
+    border-bottom: 1px solid $gray-400;
+    color: $black-muted;
+    font-weight: $font-thin;
+    font-size: $fs-12;
+    padding-bottom: 4px;
+
+    &::placeholder {
+      font-size: $fs-12;
+      font-weight: $font-thin;
+    }
+  }
+}

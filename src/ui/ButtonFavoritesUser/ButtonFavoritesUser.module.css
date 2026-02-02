@@ -1,0 +1,12 @@
+.button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.button__image {
+  width: 20px;
+  height: auto;
+}
+
+/*# sourceMappingURL=ButtonFavoritesUser.module.css.map */
