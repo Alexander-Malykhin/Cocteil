@@ -11,16 +11,6 @@
     background-color: $gray-300;
   }
 
-  &__button {
-    background-color: $primary;
-    padding: 8px 35px;
-    cursor: pointer;
-    color: $white-soft;
-    font-size: $fs-14;
-    font-weight: $font-regular;
-    box-shadow: 0 4px 10px 0 rgba(81, 74, 126, 0.4);
-  }
-
   &__column {
     display: flex;
     flex-direction: column;

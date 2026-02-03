@@ -1,0 +1,67 @@
+.modal {
+  background-color: $white-soft;
+  padding: 85px 113px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px 0 rgba(51, 51, 51, 0.15);
+
+  &__content {
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__title {
+    font-size: $fs-40;
+    font-weight: $font-regular;
+    color: $black-muted;
+  }
+
+  &__form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 375px;
+    width: 100%;
+  }
+
+  &__password {
+    font-size: $fs-16;
+    font-weight: $font-light;
+    color: $primary;
+    max-width: max-content;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
+  &::after {
+    content: '';
+    background-image: url("../../assets/ellipse-right.png");
+    width: 200px;
+    height: 200px;
+    transform: translate(0px, -80px);
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  &__active {
+    opacity: 1;
+  }
+
+  &__close {
+    opacity: 0;
+  }
+}

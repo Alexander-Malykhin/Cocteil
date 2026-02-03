@@ -5,12 +5,12 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-
-  &__active {
-    display: flex;
-  }
-
-  &__close {
-    display: none;
-  }
 }
+.modal__active {
+  display: flex;
+}
+.modal__close {
+  display: none;
+}
+
+/*# sourceMappingURL=AuthModal.module.css.map */

@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './ButtonLogin.module.scss'
+import styles from './ButtonLoginPrimary.module.scss'
 
-const ButtonLogin = () => {
+const ButtonLoginPrimary = () => {
     return (
-        <div>
-
-        </div>
+        <button className={styles.button}>
+            Войти в кабинет
+        </button>
     );
 };
 
-export default ButtonLogin;
+export default ButtonLoginPrimary;

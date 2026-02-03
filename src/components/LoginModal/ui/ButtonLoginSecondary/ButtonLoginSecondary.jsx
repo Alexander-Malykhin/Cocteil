@@ -1,12 +1,13 @@
 import React from 'react';
-import styles from './ButtonRegistration.module.scss'
+import styles from './ButtonLoginSecondary.module.scss'
 
-const ButtonRegistration = () => {
+const ButtonLoginSecondary = ({isLogin, setIsLogin}) => {
+
     return (
-        <div>
-
-        </div>
+        <button className={styles.button} onClick={() => setIsLogin(!isLogin)}>
+            Регистрация
+        </button>
     );
 };
 
-export default ButtonRegistration;
+export default ButtonLoginSecondary;

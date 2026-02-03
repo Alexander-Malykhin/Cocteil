@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from './UserDropdownHeader.module.scss';
+import ButtonHeaderLogin from "@ui/ButtonHeaderLogin/ButtonHeaderLogin.jsx";
 
 const UserDropdownHeader = ({isGuest}) => {
     return isGuest ? (
         <div className={styles.header}>
             <div className={styles.header__avatar}></div>
 
-            <button className={styles.header__button}>
-                Войти
-            </button>
+           <ButtonHeaderLogin/>
         </div>
     ) : (
         <div className={styles.header}>
