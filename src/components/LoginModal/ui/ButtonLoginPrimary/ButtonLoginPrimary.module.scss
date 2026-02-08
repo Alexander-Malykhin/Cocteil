@@ -5,4 +5,30 @@
   font-size: $fs-14;
   font-weight: $font-regular;
   box-shadow: 0 4px 10px 0 $primary-40;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition:
+          background-color 0.25s ease,
+          box-shadow 0.25s ease,
+          transform 0.15s ease,
+          opacity 0.25s ease;
+
+  &:hover:not(&__disabled) {
+    background-color: $primary-40;
+    box-shadow: 0 6px 14px 0 $primary-20;
+  }
+
+  &:active:not(&__disabled) {
+    transform: translateY(1px);
+  }
+
+  &__disabled {
+    background-color: $primary-40;
+    box-shadow: none;
+    opacity: 0.6;
+
+    cursor: not-allowed;
+    pointer-events: none;
+  }
 }
